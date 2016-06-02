@@ -161,6 +161,13 @@ header .typed-cursor {
 
 a {
 	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	text-decoration: none;
 	color: #ff9900;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
@@ -221,8 +228,9 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 }
 
 .btn.btn-orange:hover {
-	background: #303030;
-  border: 1px solid #ff9900;
+	background: #ffffff;
+	color:black;
+  /*border: 1px solid #ff9900;*/
 }
 
 .btn.btn-orange-fill {
