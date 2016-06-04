@@ -10,7 +10,6 @@ body {
 }
 
 .tronn-title {
-  font-size: 140px;
   color:#ff9900;
 	margin: 0px 0px -10px 25px;
 	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.85);
@@ -72,7 +71,7 @@ h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 140px;
 }
 
 h2 {
@@ -1074,7 +1073,7 @@ footer .social-footer li:hover a {
 
 @media(max-width:992px) {
 	h1 {
-		font-size: 36px;
+		font-size: 85px;
 	}
 	h2 {
 		font-size: 28px;
