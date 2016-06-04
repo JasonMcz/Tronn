@@ -1,4 +1,4 @@
-/* 
+/*
  *  Core Owl Carousel CSS File
  *  v1.3.3
  */
@@ -33,7 +33,7 @@
   -webkit-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
 }
-  
+
 .owl-carousel .owl-item{
   float: left;
 }
@@ -57,7 +57,7 @@
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.png) 8 8, move;
 }
 
@@ -73,7 +73,7 @@
 }
 
 /*
-*   Owl Carousel Owl Demo Theme 
+*   Owl Carousel Owl Demo Theme
 * v1.3.3
 */
 
