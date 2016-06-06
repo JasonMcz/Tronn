@@ -1090,9 +1090,19 @@ footer .social-footer li:hover a {
 	h6 {
 		font-size: 12px;
 	}
-	.section {
-		padding: 30px 0;
+
+	.mobile-services .heading {
+		font-size:28px !important;
+		top: 5px !important;;
+		margin-bottom: 5% !important;;
 	}
+
+	.mobile-services .description {
+		width: 80% !important;;
+		margin: 0 auto !important;;
+		opacity: 1 !important;
+	}
+
 }
 
 /* Media Queries */
@@ -1100,6 +1110,17 @@ footer .social-footer li:hover a {
 @media(max-width:991px) {
 	.text-center-mobile {
 		text-align: center !important;
+	}
+	.mobile-services .heading {
+		font-size:28px !important;
+		top: 5px !important;;
+		margin-bottom: 5% !important;;
+	}
+
+	.mobile-services .description {
+		width: 80% !important;;
+		margin: 0 auto !important;;
+		opacity: 1 !important;
 	}
 }
 
@@ -1139,6 +1160,17 @@ footer .social-footer li:hover a {
 		position: relative;
 		padding-right: 30px;
 		padding-left: 30px;
+	}
+	.mobile-services .heading {
+		font-size:28px !important;
+		top: 5px !important;;
+		margin-bottom: 5% !important;;
+	}
+
+	.mobile-services .description {
+		width: 80% !important;;
+		margin: 0 auto !important;;
+		opacity: 1 !important;
 	}
 }
 
