@@ -34,9 +34,9 @@ user-nav {
 }
 
 .avatar {
-  height:120px;
-  width:120px;
-  border:3px solid #ff9900;
+  height:150px;
+  width:150px;
+  border:5px solid #ff9900;
   padding: 3px 3px 3px 3px;
   margin-top: 10px;
   /*background: url(../img/alpha/avatar_demo.png);*/
@@ -49,12 +49,24 @@ user-nav {
 
 /*Right Chat Bar Section */
 
+last-games {
+  height:110px;
+  padding-top: 15px;
+  border-bottom:2px solid #1a1a1a;
+  border-left:2px solid #1a1a1a;
+}
+
+last-games .tronn-table td {
+	font-weight: normal;
+	font-size: 10px;
+}
+
 game-chat {
   height:1000px;
   border-left:2px solid #1a1a1a;
 }
 
-
+/*Right Chat Bar Section Ends*/
 
 /*Game Navigation Bar Section*/
 
@@ -62,6 +74,7 @@ game-nav {
   height:110px;
   padding-top: 15px;
   border-bottom:2px solid #1a1a1a;
+  /*border-right:2px solid #1a1a1a;*/
 }
 
 .game-icon {
@@ -87,7 +100,7 @@ game-nav {
   height:100px;
   width:100px;
   /*border:2px dotted #fefefe;*/
-  margin-right: 5px;
+  margin-right: 1px;
   color:#fefefe;
   text-align: center;
   margin-left: 3px;
@@ -115,8 +128,8 @@ game-nav {
 /*Table Section */
 
 .tronn-table td {
-	  font-weight: normal;
-	  font-size: 14px;
+	font-weight: normal;
+	font-size: 15px;
   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
 	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
 	        box-shadow: 0 2px 2px -2px #0E1119;
@@ -135,7 +148,7 @@ game-nav {
 .tronn-table td, .tronn-table th {
 	  padding-bottom: 1%;
 	  padding-top: 1%;
-    padding-left:2%;
+    padding-left:1%;
 }
 
 /* Background-color of the odd rows */
